@@ -6,6 +6,7 @@ body {
 
 :root {
      --primary-color: #bef264;
+     --dark-gray: #64748b;
 }
 
 hr {
@@ -78,3 +79,19 @@ hr {
     font-weight: bold;
 }
 
+/** header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
