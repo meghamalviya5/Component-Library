@@ -7,6 +7,7 @@ body {
 :root {
      --primary-color: #bef264;
      --dark-gray: #64748b;
+     --off-white: #f3f4f6;
 }
 
 hr {
@@ -95,3 +96,18 @@ hr {
     color: var(--dark-gray);
     padding-top: 1rem;
 }
+
+/** section **/
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
