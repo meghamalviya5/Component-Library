@@ -15,6 +15,12 @@ hr {
     margin: 2rem 0;
 }
 
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
+
 /** container **/
 .container {
     padding-left: 1rem;
@@ -84,7 +90,7 @@ hr {
 /** header **/
 
 .hero {
-    padding: 2rem;
+    padding: 5rem;
 }
 
 .hero .hero-img {
@@ -125,6 +131,11 @@ footer {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+     font-weight: bold;
+     padding: large;
 }
 
 .footer ul{

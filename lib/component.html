@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- CSS way 1: Style Tag
+    <style>
+            color: aqua;
+        }
+    </style> -->
+    <!-- Third way of doing CSS: external-->
+    <link href="../styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Megha's component library</h1>
+    <!-- style="color: red;" -->
+    <p>I am attending neog.camp and I want to library which would make all my projects look good and consistent.</p>
+    
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>This is normal text.</p>
+    <p>This paragraph will have a <strong>bold</strong> text.</p>
+    <small>This is relatively smaller text</small> <small>This is relatively smaller text 2</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
+
+    <hr>
+
+    <h2>@list</h2>
+
+    <h3>unordered list</h3>
+    
+     <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>revere ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>break</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="unordered list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">projects</a>    
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    
+    <header class="hero">
+        <img src="../images/hero.svg" class="hero-img"/>
+        <h1 class="hero-heading">adarsh balika the <span style="color: var(--primary-color)">web developer</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>What I will be doing here is kind of an experiment to explore tricks that leverage a bug with the way CSS gradients handle sub-pixel rendering to create a static noise effect — like you might see on a TV with no signal.</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>What I will be doing here is kind of an experiment to explore tricks that leverage a bug with the way CSS gradients handle sub-pixel rendering to create a static noise effect — like you might see on a TV with no signal.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer container">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a href ="/" class="link">
+                    socialOne
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a href ="/" class="link">
+                socialTwo
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a href ="/" class="link">
+                socialThree
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+    
+    <!-- <div style="height:30vh;"> -->
+
+    </div>
+
+</body>
+</html>
