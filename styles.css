@@ -2,6 +2,9 @@
 body {
    font-family: 'Fira Sans', sans-serif;
     margin: 0px;
+  min-height: 100vh;
+   display: flex;
+  flex-direction: column;
 }
 
 :root {
@@ -89,7 +92,7 @@ hr {
 /** header **/
 
 .hero {
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .hero .hero-img {
@@ -118,6 +121,12 @@ hr {
     background-color: var(--off-white);
 }
 
+/** blog listings **/
+/* p, img {
+  padding-left: 3rem;
+  padding-right: 3rem;
+} */
+
 /** footer **/
 
 footer {
@@ -126,6 +135,7 @@ footer {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: auto;
 }
 
 .footer .link {
